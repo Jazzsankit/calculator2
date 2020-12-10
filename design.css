@@ -1,0 +1,87 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+}
+#container{
+    height: 550px;
+    width: 1000px;
+    background-image: url(img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin:  30px auto;
+}
+#calculator{
+    height: 520px;
+    width: 330px;
+    background-color: lavender;
+    margin: 0px auto;
+    position: relative;
+    align-content: center;
+    top: 20px;
+    box-shadow: lightcoral;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.empty, .number{
+    background-color: lavender;
+
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(41, 168, 41);
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color:rgb(172, 119, 23) ;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color:palevioletred ;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(53, 118, 204) ;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color:rgb(168, 37, 168) ;
+}
